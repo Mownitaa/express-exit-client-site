@@ -1,0 +1,12 @@
+.add-service input,textarea{
+    margin: 15px;
+    border-color: rgb(224, 30, 198);
+}
+
+.add-service input{
+    height: 60px;
+}
+
+.add-service textarea{
+    height:140px;
+}

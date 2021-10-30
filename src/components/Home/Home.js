@@ -1,9 +1,22 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import { Spinner } from 'react-bootstrap';
+import PickUp from '../PickUp/PickUp';
+import Services from '../Services/Services';
+import useAuth from '../../hooks/useAuth';
 
 const Home = () => {
+    const { isLoading } = useAuth();
+    if (isLoading) {
+        return <Spinner animation="border" variant="danger" />
+
+    }
+
     return (
         <div>
-            <h2>This is Home</h2>
+            <Banner></Banner>
+            <Services></Services>
+            <PickUp></PickUp>
         </div>
     );
 };
