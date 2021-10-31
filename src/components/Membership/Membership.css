@@ -1,0 +1,8 @@
+.inputField{
+    width: 600px;
+    height: 60px;
+    box-shadow: 2px 13px 23px rgba(128, 128, 128, 0.527);
+}
+.submit-btn{
+    background-color: rgb(161, 9, 103);
+}

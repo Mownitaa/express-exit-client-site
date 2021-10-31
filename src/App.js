@@ -12,6 +12,7 @@ import Products from './components/Products/Products';
 import PickUp from './components/PickUp/PickUp';
 import AddService from './components/AddService/AddService';
 import AuthProvider from './context/AuthProvider';
+import Membership from './components/Membership/Membership';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route exact path='/services'>
               <Services></Services>
+            </Route>
+            <Route exact path='/membership'>
+              <Membership></Membership>
             </Route>
             <PrivateRoute exact path='/products'>
               <Products></Products>

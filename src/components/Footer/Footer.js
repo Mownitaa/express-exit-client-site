@@ -12,17 +12,8 @@ const Footer = () => {
                     <p><i className="far fa-hand-point-right text-purple"></i> Services</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Products</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Pick Up</p>
-                    <p><i className="far fa-hand-point-right text-purple"></i> Reviews</p>
-                    {/* our services section */}
+                    <p><i className="far fa-hand-point-right text-purple"></i> Membership</p>
                 </div>
-                {/* <div className="p-3">
-                    <p className="pb-2  text-purple fw-bold">Our Services</p>
-                    <p><i className="fas fa-chevron-right text-purple"></i> 24/7 Support</p>
-                    <p><i className="fas fa-chevron-right text-purple"></i> Free Checkup</p>
-                    <p><i className="fas fa-chevron-right text-purple"></i> Ambulance Service</p>
-                    <p><i className="fas fa-chevron-right text-purple"></i> Bed Facility</p>
-                    <p><i className="fas fa-chevron-right text-purple"></i> Spare parts</p>
-                </div> */}
 
                 {/* contact info section */}
                 <div className="p-3">

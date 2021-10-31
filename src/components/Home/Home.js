@@ -4,6 +4,7 @@ import { Spinner } from 'react-bootstrap';
 import PickUp from '../PickUp/PickUp';
 import Services from '../Services/Services';
 import useAuth from '../../hooks/useAuth';
+import Membership from '../Membership/Membership';
 
 const Home = () => {
     const { isLoading } = useAuth();
@@ -17,6 +18,7 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
             <PickUp></PickUp>
+            <Membership></Membership>
         </div>
     );
 };

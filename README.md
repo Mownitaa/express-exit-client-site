@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Express Exit | fast delivery system
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is about delivery system and services (https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## different features and functionality of our website
+* We have our services section from which we can go to the order place page
+* we can place order from order place page
+* we can add any service
+* the services we added in our website is from our own created server
+* we can delete any service
 
 In the project directory, you can run:
 
