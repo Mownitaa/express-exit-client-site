@@ -10,7 +10,7 @@ const Footer = () => {
                     <p className="pb-2 text-purple fw-bold">Quick Links</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Home</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Services</p>
-                    <p><i className="far fa-hand-point-right text-purple"></i> Products</p>
+                    <p><i className="far fa-hand-point-right text-purple"></i> My Services</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Pick Up</p>
                     <p><i className="far fa-hand-point-right text-purple"></i> Membership</p>
                 </div>

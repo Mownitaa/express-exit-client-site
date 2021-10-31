@@ -1,0 +1,11 @@
+.productsImg{
+    overflow:hidden;
+} 
+.products img{
+    width: 100%;
+    height: 300px;
+transition:all 1.5s ease;
+}
+.products:hover img{
+    transform: scale(1.5);
+}

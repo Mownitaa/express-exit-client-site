@@ -8,11 +8,13 @@ import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
-import Products from './components/Products/Products';
 import PickUp from './components/PickUp/PickUp';
 import AddService from './components/AddService/AddService';
 import AuthProvider from './context/AuthProvider';
 import Membership from './components/Membership/Membership';
+import AvailService from './components/AvailService/AvailService';
+import MyServices from './components/MyServices/MyServices';
+import Manage from './components/Manage/Manage';
 
 function App() {
   return (
@@ -39,11 +41,17 @@ function App() {
             <Route exact path='/membership'>
               <Membership></Membership>
             </Route>
-            <PrivateRoute exact path='/products'>
-              <Products></Products>
+            <PrivateRoute exact path='/service/:serviceId'>
+              <AvailService></AvailService>
             </PrivateRoute>
             <PrivateRoute exact path='/addService'>
               <AddService></AddService>
+            </PrivateRoute>
+            <PrivateRoute exact path='/myServices'>
+              <MyServices></MyServices>
+            </PrivateRoute>
+            <PrivateRoute exact path='/manage'>
+              <Manage></Manage>
             </PrivateRoute>
             <Route exact path='/pickup'>
               <PickUp></PickUp>

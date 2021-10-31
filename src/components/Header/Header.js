@@ -20,17 +20,27 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/services">Services</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/products">Products</Link>
-                            </li>
+
                             <li className="nav-item">
                                 <Link className="nav-link" to="/pickup">Pick Up</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/addService">Add Service</Link>
-                            </li>
+
                             <li className="nav-item">
                                 <Link className="nav-link" to="/membership">Membership</Link>
+                            </li>
+
+
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/service/:serviceId">Avail Service</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/myServices">My Services</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/manage">Manage</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/addService">Add Service</Link>
                             </li>
 
                             <li className="nav-item">
@@ -42,10 +52,7 @@ const Header = () => {
                             </li>
                             <span className="mt-2 text-purple ms-2">{user.displayName}</span>
                         </ul>
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-light text-dark" type="submit">Search</button>
-                        </form>
+
                     </div>
                 </div>
             </nav>
