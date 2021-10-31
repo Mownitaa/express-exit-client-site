@@ -13,8 +13,8 @@ import AddService from './components/AddService/AddService';
 import AuthProvider from './context/AuthProvider';
 import Membership from './components/Membership/Membership';
 import AvailService from './components/AvailService/AvailService';
-import MyServices from './components/MyServices/MyServices';
 import Manage from './components/Manage/Manage';
+import MyService from './components/MyService/MyService';
 
 function App() {
   return (
@@ -47,8 +47,8 @@ function App() {
             <PrivateRoute exact path='/addService'>
               <AddService></AddService>
             </PrivateRoute>
-            <PrivateRoute exact path='/myServices'>
-              <MyServices></MyServices>
+            <PrivateRoute exact path='/myService'>
+              <MyService></MyService>
             </PrivateRoute>
             <PrivateRoute exact path='/manage'>
               <Manage></Manage>

@@ -34,7 +34,7 @@ const Header = () => {
                                 <Link className="nav-link" to="/service/:serviceId">Avail Service</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/myServices">My Services</Link>
+                                <Link className="nav-link" to="/myService">My Service</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/manage">Manage</Link>

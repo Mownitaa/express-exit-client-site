@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const AvailService = () => {
@@ -48,29 +48,30 @@ const AvailService = () => {
             <form className="container w-50 shadow p-5 mb-5">
                 <div className="mb-3">
 
-                    <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Your Full Name" />
+                    <input type="text" className="form-control" id="exampleInputPassword1" value={user.displayName} placeholder="Your Full Name" />
+                </div>
+                <div className="mb-3">
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value={user.email} placeholder="Your Email" />
+                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
 
-                    <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Shipping Address" />
+                    <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Shipping Address" required />
                 </div>
                 <div className="mb-3">
 
                     <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Optional Message" />
                 </div>
-                <div className="mb-3">
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email" />
-                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                </div>
+
                 <div className="mb-3">
 
-                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                    <input type="date" className="form-control" id="birthday" required />
                 </div>
                 <div className="mb-3 form-check">
                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                     <label className="d-flex align-items-start form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" className="btn btn-primary">Confirm To Avail Services</button>
+                <button type="submit" className="btn btn-primary"><Link to="/myService" className="text-white text-decoration-none">Confirm To Avail Services</Link></button>
             </form>
 
 
