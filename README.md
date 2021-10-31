@@ -1,6 +1,6 @@
 # Express Exit | fast delivery system
 
-This project is about delivery system and services (https://github.com/facebook/create-react-app).
+This project is about delivery system and services (https://express-exit.web.app/).
 
 ## different features and functionality of our website
 * We have our services section from which we can go to the order place page
