@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css';
+
+
 const Footer = () => {
     const footerImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmk371QMmQH_Chj9X7V_So_wamdyhJuO_6hw&usqp=CAU";
     return (

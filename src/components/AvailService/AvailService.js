@@ -9,11 +9,9 @@ const AvailService = () => {
     const [service, setService] = useState([]);
     // console.log(service);
     useEffect(() => {
-        fetch('https://hidden-lowlands-63072.herokuapp.com/services')
+        fetch(`https://hidden-lowlands-63072.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
-            // .then(data => console.log(data[1]))
-            // .then(data => setService(data[`${serviceId}`]));
-            .then(data => setService(data[1]));
+            .then(data => setService(data));
     }, [])
 
     return (

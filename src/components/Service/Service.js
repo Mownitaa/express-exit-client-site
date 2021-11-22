@@ -12,7 +12,7 @@ const Service = ({ service }) => {
                 <img className="img-fluid service-img pt-3" src={img} alt="" />
                 <h3 className="pt-3 text-purple fw-bold">{name}</h3>
                 <p className="px-3">{description}</p>
-                <Link to={`/service/${_id}`}>
+                <Link to={`/services/${_id}`}>
                     <button className="btn btn-danger">Avail Now</button>
                 </Link>
             </div>

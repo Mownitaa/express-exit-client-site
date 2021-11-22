@@ -41,7 +41,7 @@ function App() {
             <Route exact path='/membership'>
               <Membership></Membership>
             </Route>
-            <PrivateRoute exact path='/service/:serviceId'>
+            <PrivateRoute exact path='/services/:serviceId'>
               <AvailService></AvailService>
             </PrivateRoute>
             <PrivateRoute exact path='/addService'>
