@@ -1,15 +1,15 @@
-.text-purple{
-color:rgb(161, 9, 103);
-}
+
 .footer{
-    background-color: rgba(155, 107, 148, 0.212);
+   background-color: #dda294e3;
+   /* background-color: rgba(53, 23, 49, 0.692); */
 }
 .footer p{
-    text-align: start;
+    /* color:rgb(186, 121, 248); */
+    color:#407573;
+    text-align: left;
     font-size: 17px;
 }
 .footer p:hover{
-    color: rgb(240, 20, 167);
     font-weight: bold;
     cursor: pointer;
 }

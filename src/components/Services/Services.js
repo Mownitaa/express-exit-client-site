@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
+import pic from './pizza-delivery-man-presenting-something_1368-8218-removebg-preview.png';
+
+
+// const pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ugYnvX9p9u2RoaiCLcmWAepNWECdQMHi9uhat8ouDna7qdZN_7tvD06sMq4Y9nsuIDQ&usqp=CAU";
+// const pic = "https://image.freepik.com/free-photo/pizza-delivery-man-presenting-something_1368-8218.jpg";
+
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -12,14 +18,19 @@ const Services = () => {
     return (
         <div className="mb-5 pb-5">
             <hr />
-            <h2 className="text-purple fw-bold mt-5 pt-5 pb-3">Our services</h2>
-            <div className="container g-4 row row-cols-1 row-cols-md-3  mx-auto">
-                {
-                    services.map(service => <Service
-                        key={service._id}
-                        service={service}
-                    ></Service>)
-                }
+            <h2 style={{ color: '#689492' }} className="fw-bold mt-5 pt-5 pb-5 mb-5">Our services</h2>
+            <div className="d-flex">
+                <div className="container g-5 row row-cols-1 row-cols-md-4  ">
+                    {
+                        services.map(service => <Service
+                            key={service._id}
+                            service={service}
+                        ></Service>)
+                    }
+                </div>
+                <div>
+                    <img className="mt-3" style={{ marginLeft: '-450px', width: '1450%' }} src={pic} alt="" />
+                </div>
             </div>
         </div>
     );

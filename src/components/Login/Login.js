@@ -19,7 +19,7 @@ const Login = () => {
     return (
         <div className="mb-5 pb-5">
             <hr />
-            <h2 className="text-purple fw-bold mt-5">Please Login!!!</h2>
+            <h2 className="fw-bold mt-5">Please Login!!!</h2>
 
             <form className="container mt-5 pt-5">
                 <div className="mb-3">

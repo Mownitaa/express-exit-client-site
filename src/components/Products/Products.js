@@ -29,13 +29,13 @@ const Products = () => {
     return (
         <div>
             <hr />
-            <div className="d-flex align-items-start ms-5"> You Are Logged In As : <span className="text-purple"> {user.email}({user.displayName})</span></div>
-            <h2 className="text-purple fw-bold mt-5">Place Your Order !!!</h2><p>________________</p>
+            <div className="d-flex align-items-start ms-5"> You Are Logged In As : <span> {user.email}({user.displayName})</span></div>
+            <h2 className="fw-bold mt-5">Place Your Order !!!</h2><p>________________</p>
 
             {/* order summary */}
             <div className="d-flex flex-md-column align-items-start ms-5">
                 <form className="bg-white p-5 shadow">
-                    <h3 className="text-purple">Order Summary</h3>
+                    <h3>Order Summary</h3>
                     <p>Items Ordered:0</p>
                 </form>
             </div>

@@ -1,4 +1,9 @@
-
-.logo{
-    color:rgb(112, 3, 103);
+.header{
+    background-color:#F7F7F7;
 }
+.logo{
+    color:#d88d7f;
+}
+.animate__animated.animate__bounce {
+    --animate-duration: 100s;
+  }
