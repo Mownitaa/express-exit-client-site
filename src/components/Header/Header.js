@@ -25,7 +25,7 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul style={{ paddingLeft: '13%' }} className="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <ul style={{ paddingLeft: '13%' }} className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link style={{ color: '#97080D', fontSize: '18px' }} className="nav-link active" aria-current="page" to="/home">Home</Link>
                             </li>
@@ -49,7 +49,7 @@ const Header = () => {
 
                             <li className="nav-item pr-5">
                                 {user.email || user.photoURL ?
-                                    <div style={{ marginRight: '-700px' }} className=" d-flex justify-content-center align-items-center">
+                                    <div style={{ marginRight: '-550px' }} className=" d-flex justify-content-center align-items-center">
 
                                         <span style={{ color: '#d88d7f', fontSize: '18px' }} className=" mt-2 me-2 mb-2">{user.displayName} </span>
                                         <button style={{ backgroundImage: `url(${user.photoURL})`, backgroundSize: 'cover', height: '50px', width: '50px', borderRadius: '50%' }} className="border border-2 border-danger animate__animated animate__heartBeat

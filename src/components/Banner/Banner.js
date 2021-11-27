@@ -32,7 +32,7 @@ const Banner = () => {
                         <p> <i style={{ color: '#689492' }} className="fas fa-chevron-right pe-2"></i>Regular Payout</p>
                     </span>
                     <br />
-                    <button style={{ color: '#133238', backgroundColor: '#E8A698' }} className="px-4 py-2 border rounded mt-4 fw-bolder">Find An Errand Boy</button>
+                    <button style={{ color: '#133238', backgroundColor: '#E8A698' }} className="px-4 py-2 border rounded fw-bolder">Find An Errand Boy</button>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@ const Banner = () => {
 
 
 
-            {/* avtivity part */}
+            {/* activity part */}
 
             <div style={{ height: '300px', color: '#133238' }} className="container d-flex justify-content-center align-items-center pb-5 fw-bold mt-5">
 

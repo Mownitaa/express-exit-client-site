@@ -9,7 +9,7 @@ import Membership from '../Membership/Membership';
 const Home = () => {
     const { isLoading } = useAuth();
     if (isLoading) {
-        return <Spinner animation="border" variant="danger" />
+        return <Spinner animation="border" variant="warning" />
 
     }
 
