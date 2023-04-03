@@ -8,7 +8,8 @@ const ManageService = ({ manageService }) => {
 
     const [manageServices, setManageServices] = useState([]);
     useEffect(() => {
-        fetch('https://hidden-lowlands-63072.herokuapp.com/services')
+        fetch('https://express-exit-server-site-64i4q8m8l-mownitaa.vercel.app/services')
+        // fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setManageServices(data));
     }, [])
@@ -16,7 +17,8 @@ const ManageService = ({ manageService }) => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `https://hidden-lowlands-63072.herokuapp.com/services/${_id}`;
+            const url = `https://express-exit-server-site-64i4q8m8l-mownitaa.vercel.app/services/${_id}`;
+            // const url = `http://localhost:5000/services/${_id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -41,7 +43,7 @@ const ManageService = ({ manageService }) => {
                 <button onClick={() => handleDelete(manageService._id)} className="btn btn-danger">Remove</button>
 
                 <Link className="ms-2" to="/addService">
-                    <button style={{ color: '#ffff', backgroundColor: '#E8A698' }} className="btn btn-light">Add</button>
+                    <button style={{ color: '#ffff', backgroundColor: '#E8A698' }} className="btn btn-light">Add New</button>
                 </Link>
             </div>
 

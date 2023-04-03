@@ -10,9 +10,11 @@ import pic from './pizza-delivery-man-presenting-something_1368-8218-removebg-pr
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('https://hidden-lowlands-63072.herokuapp.com/services')
+        fetch('https://express-exit-server-site-64i4q8m8l-mownitaa.vercel.app/services')
+        // fetch('http://localhost:5000/services')
             .then(res => res.json())
-            .then(data => setServices(data));
+            .then(data => setServices(data))
+            // .catch(error => console.log('Authorization failed : ' + error.message));
     }, [])
 
     return (
@@ -29,7 +31,7 @@ const Services = () => {
                     }
                 </div>
                 <div>
-                    <img className="mt-3" style={{ marginLeft: '-450px', width: '1450%' }} src={pic} alt="" />
+                    <img className="mt-5" style={{ marginLeft: '-450px', width: '1300%' }} src={pic} alt="" />
                 </div>
             </div>
         </div>

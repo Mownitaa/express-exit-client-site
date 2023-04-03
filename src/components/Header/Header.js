@@ -76,7 +76,7 @@ const Header = () => {
                                                         <Link to=""></Link>
                                                         <tr>
                                                             <td>
-                                                                <Link style={{ color: '#589492' }} className="text-uppercase text-decoration-none text-color" to="/myService">My Services</Link>
+                                                                <Link style={{ color: '#589492' }} className="text-uppercase text-decoration-none text-color" to="/myService">Taken Services</Link>
                                                             </td>
                                                         </tr>
                                                         <tr>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import ManageService from '../ManageService/ManageService';
 
 const ManageServices = () => {
 
     const [manageServices, setManageServices] = useState([]);
     useEffect(() => {
-        fetch('https://hidden-lowlands-63072.herokuapp.com/services')
+        fetch('https://express-exit-server-site-64i4q8m8l-mownitaa.vercel.app/services')
+        // fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setManageServices(data));
     }, [])

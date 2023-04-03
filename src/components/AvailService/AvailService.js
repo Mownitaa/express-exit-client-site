@@ -10,7 +10,8 @@ const AvailService = () => {
     const [service, setService] = useState([]);
     // console.log(service);
     useEffect(() => {
-        fetch(`https://hidden-lowlands-63072.herokuapp.com/services/${serviceId}`)
+        fetch(`https://express-exit-server-site-64i4q8m8l-mownitaa.vercel.app/services/${serviceId}`)
+        // fetch(`http://localhost:5000/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data));
     }, [])
