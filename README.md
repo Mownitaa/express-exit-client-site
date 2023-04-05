@@ -1,13 +1,15 @@
 # Express Exit | fast delivery system
 
-This project is about delivery system and services (https://express-exit.web.app/).
+This project is about delivery system and services 
+Live site: (https://express-exit.web.app/).
+Server site code: (https://github.com/Mownitaa/express-exit-client-site)
 
 ## different features and functionality of our website
-* We have our services section from which we can go to the order place page
-* we can place order from order place page
-* we can add any service
-* the services we added in our website is from our own created server
-* we can delete any service
+* Developed MERN stack project about delivery system
+* Implemented firebase authentication system for google sign in
+* User's google account image will be shown after signing up, they can also logout
+* Implemented get, post, update and delete operation
+* Services are shown specifically by fetching by id
 
 In the project directory, you can run:
 
