@@ -1,8 +1,8 @@
 # Express Exit | fast delivery system
 
 This project is about delivery system and services 
-Live site: (https://express-exit.web.app/).
-Server site code: (https://github.com/Mownitaa/express-exit-client-site)
+#Live site: (https://express-exit.web.app/).
+#Server site code: (https://github.com/Mownitaa/express-exit-client-site)
 
 ## different features and functionality of our website
 * Developed MERN stack project about delivery system
